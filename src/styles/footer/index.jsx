@@ -7,7 +7,7 @@ export const FooterContainer=styled.div`
     @media (max-width:600px)
     {
         position: relative;
-        top: -150px;
+        top: -210px;
         max-height: 550px;
     }
 
