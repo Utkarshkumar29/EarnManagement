@@ -15,7 +15,7 @@ export const RoadmapContainer=styled.div`
 
 export const RoadmapWrapper=styled.div`
     width: 100%;
-    max-width: 1300px;
+    max-width: 1600px;
 `
 
 export const Box1Container=styled.div`
