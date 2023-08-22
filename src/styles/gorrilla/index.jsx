@@ -63,6 +63,16 @@ export const GuildHeading=styled.p`
     {
         font-size: 65px;
     }
+
+    @media (max-width:535px)
+    {
+        font-size: 55px;
+    }
+
+    @media (max-width:400px)
+    {
+        font-size: 45px;
+    }
 `
 
 export const GuildDescription=styled.div`
@@ -77,9 +87,15 @@ export const GuildDescription=styled.div`
         padding-right: 10px;
     }
 
-    @media (max-width:500px)
+
+    @media (max-width:535px)
     {
-        font-size: 15px;
+        font-size: 13px;
+    }
+
+    @media (max-width:400px)
+    {
+        font-size: 11px;
     }
 `
 export const InputContainer=styled.div`
@@ -90,6 +106,11 @@ export const InputContainer=styled.div`
     @media (max-width:1300px)
     {
         justify-content: center;
+    }
+
+    @media (max-width:320px)
+    {
+        padding: 10px;
     }
 `
 
@@ -140,6 +161,12 @@ export const ArrowContainer=styled.div`
         left: 22px;
         width: 40px;
         height: 40px;
+    }
+
+    @media (max-width:320px)
+    {
+        left: 3.5px;
+        top: -0.5px;
     }
 `
 

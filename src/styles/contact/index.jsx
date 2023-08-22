@@ -81,7 +81,7 @@ export const Box52=styled.div`
 
         @media (max-width:380px)
         {
-            left: -75px;
+            left: -110px;
         }
 
 `

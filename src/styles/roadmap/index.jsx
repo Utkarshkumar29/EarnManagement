@@ -90,7 +90,7 @@ export const RoadmapHeading=styled.p`
 
     @media (max-width:500px)
     {
-        font-size: 55px;
+        font-size: 50px;
     }
 `
 
@@ -251,6 +251,11 @@ export const Box22=styled.div`
     {
         max-width: 190px;
     }
+
+    @media (max-width:320px)
+    {
+        max-width: 150px;
+    }
 `
 
 export const TextWrapper=styled.div`
@@ -360,10 +365,15 @@ export const Box3=styled.div`
 
         @media (max-width:480px)
         {
-            left: -70px;
+            left: -60px;
         }
 
         @media (max-width:380px)
+        {
+            left: -45px;
+        }
+
+        @media (max-width:320px)
         {
             left: -35px;
         }
@@ -456,7 +466,12 @@ export const Box4=styled.div`
 
         @media (max-width:380px)
         {
-            left: -75px;
+            left: -115px;
+        }
+
+        @media (max-width:320px)
+        {
+            left: -70px;
         }
     }
 `
