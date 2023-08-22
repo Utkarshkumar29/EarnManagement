@@ -309,7 +309,7 @@ export const TextBox1=styled.div`
         left: 60px;
     }
 
-    @media (max-width:380px)
+    @media (max-width:376px)
     {
         left: 57px;
     }
@@ -374,7 +374,7 @@ export const TextBox2=styled.div`
         top: 40px;
     }
 
-    @media (max-width:380px)
+    @media (max-width:376px)
     {
         left: 255px;
     }
@@ -438,7 +438,7 @@ export const TextBox3=styled.div`
         left: 80px;
     }
 
-    @media (max-width:380px)
+    @media (max-width:376px)
     {
         top: 120px;
         left: 70px;
@@ -504,7 +504,7 @@ export const TextBox4=styled.div`
         left: 245px;
     }
 
-    @media (max-width:380px)
+    @media (max-width:376px)
     {
         left: 247px;
     }
@@ -547,7 +547,7 @@ export const Coin=styled.img`
         left: 130px;
     }
 
-    @media (max-width:380px)
+    @media (max-width:376px)
     {
         left: 124px;
     }
@@ -589,7 +589,7 @@ export const StackofCoin1=styled.img`
         left: 130px;
     }
 
-    @media (max-width:380px)
+    @media (max-width:376px)
     {
         left: 125px;
     }
@@ -631,7 +631,7 @@ export const StackofCoin2=styled.img`
         left: 165px;
     }
 
-    @media (max-width:380px)
+    @media (max-width:376px)
     {
         left: 160px;
     }
