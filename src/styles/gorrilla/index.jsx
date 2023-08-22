@@ -13,19 +13,16 @@ export const HeroWrapper=styled.div`
     max-width: 1300px;
     width: 100%;
     gap: 40px;
-    
+    justify-content: center;
+    align-items: center;
 
     @media (max-width:1300px)
     {
         flex-direction: column;
         text-align: center;
-        -webkit-box-align: center;
     }
 
-    @media (min-width:1600px)
-    {
-        max-width: 1500px;
-    }
+   
 `
 
 export const HeroLeft=styled.div`
