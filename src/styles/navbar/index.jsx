@@ -7,6 +7,8 @@ export const Logo=styled.img`
     @media (max-width:400px)
     {
         margin-left: 30px;
+        width: 50px;
+        height: 50px;
     }
 
     @media (max-width:350px)
@@ -65,6 +67,11 @@ export const Bar=styled.p`
         position: absolute;
         left: 89%;
         top: 8%;
+    }
+
+    @media (max-width:400px)
+    {
+        top: 35px;
     }
 
 `

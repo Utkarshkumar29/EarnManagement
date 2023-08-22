@@ -9,7 +9,7 @@ export const ContactContainer=styled.div`
     @media (max-width:600px)
     {
         position: relative;
-        top: -149.5px;
+        top: -150.5px;
     }
 `
 

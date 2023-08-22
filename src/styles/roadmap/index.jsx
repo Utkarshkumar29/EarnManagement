@@ -11,6 +11,11 @@ export const RoadmapContainer=styled.div`
         position: relative;
         top: -150px;
     }
+
+    @media (max-width:600px)
+    {
+        top: -200px;
+    }
 `
 
 export const RoadmapWrapper=styled.div`
@@ -81,6 +86,7 @@ export const RoadmapHeading=styled.p`
     line-height: 88px;
     letter-spacing: 0.2px;
     width: 100%;
+    white-space: nowrap;
 
     @media (max-width:700px)
     {
@@ -90,7 +96,7 @@ export const RoadmapHeading=styled.p`
 
     @media (max-width:500px)
     {
-        font-size: 50px;
+        font-size: 45px;
     }
 `
 
@@ -108,7 +114,7 @@ export const RoadmapDescription=styled.p`
 
     @media (max-width:700px)
     {
-        font-size: 10px;
+        font-size: 12px;
     }
 `
 
@@ -146,6 +152,11 @@ export const Box21=styled.div`
     }
 
     @media (max-width:500px)
+    {
+        max-width: 70px;
+    }
+
+    @media (max-width:400px)
     {
         max-width: 70px;
     }
@@ -287,7 +298,7 @@ export const Year=styled.p`
 
     @media (max-width:500px)
     {
-        font-size: 50px;
+        font-size: 60px;
     }
 `
 
@@ -296,11 +307,11 @@ export const Quater=styled.p`
     font-weight: 500;   
     color: rgba(21, 196, 198, 1);
 
-    @media (max-width:500px)
+    @media (max-width:550px)
     {
-        font-size: 20px;
+        font-size: 25px;
+        font-weight: 500;
     }
-;
 `
 
 export const Q1Description=styled.p`
@@ -308,9 +319,9 @@ export const Q1Description=styled.p`
     font-weight: 400;
     color: rgba(255, 255, 255, 0.39);
 
-    @media (max-width:500px)
+    @media (max-width:550px)
     {
-        font-size: 14   px;
+        font-size: 14px;
     }
 `
 
@@ -347,7 +358,7 @@ export const Box3=styled.div`
         border-left:none;
         border-radius:0 40px 40px 0;
         position: relative;
-        top: -1.5px;
+        top: -2px;
         left:-150px;
         display:flex;
         justify-content:flex-end;
@@ -366,6 +377,7 @@ export const Box3=styled.div`
         @media (max-width:480px)
         {
             left: -60px;
+            max-height: 200px;
         }
 
         @media (max-width:380px)
@@ -375,7 +387,7 @@ export const Box3=styled.div`
 
         @media (max-width:320px)
         {
-            left: -35px;
+            left: -30px;
         }
     }
 
@@ -471,7 +483,7 @@ export const Box4=styled.div`
 
         @media (max-width:320px)
         {
-            left: -70px;
+            left: -75px;
         }
     }
 `

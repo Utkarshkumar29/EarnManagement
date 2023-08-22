@@ -123,6 +123,7 @@ export const InputWrapper=styled.div`
     width: 100%;
     align-items: center;
     padding: 3px;
+    justify-content: space-between;
 
     @media (max-width:500px)
     {
@@ -153,8 +154,6 @@ export const ArrowContainer=styled.div`
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    position: relative;
-    left: 30px;
 
     @media (max-width:500px)
     {
@@ -210,13 +209,6 @@ export const HeroRight=styled.div`
     {
         max-width: 400px;
         width: 100%;
-    }
-
-    @media (max-width:400px)
-    {
-        top: -100px;
-        max-width: 300px;
-        aspect-ratio: 1/1.15;
     }
 
     img{
@@ -291,9 +283,21 @@ export const TextBox1=styled.div`
     @media (max-width:400px)
     {
         font-size: 8px;
-        top: 220px;
-        left: 20px;
+        top: 65px;
+        left: 50px;
         max-width: 100px;
+    }
+
+    @media (max-width:376px)
+    {
+        left: 35px;
+    }
+
+    @media (max-width:325px)
+    {
+        left: 20px;
+        text-align: left;
+        padding: 10px;
     }
 `
 
@@ -337,9 +341,20 @@ export const TextBox2=styled.div`
     @media (max-width:400px)
     {
         font-size: 8px;
-        left: 190px;
-        top: 150px;
-        max-width: 80px;
+        left: 260px;
+        top: 5px;
+        max-width: 100px;
+    }
+
+    @media (max-width:376px)
+    {
+        left: 250px;
+    }
+
+    @media (max-width:325px)
+    {
+        top: -5px;
+        left: 210px;
     }
 `
 
@@ -384,7 +399,19 @@ export const TextBox3=styled.div`
     {
         max-width: 100px;
         font-size: 8px;
-        top: 200px;
+        top: 85px;
+        left: 65px;
+    }
+
+    @media (max-width:376px)
+    {
+        left: 50px;
+        top: 70px;
+    }
+
+    @media (max-width:325px)
+    {
+        top: 50px;
         left: 30px;
     }
 `
@@ -429,9 +456,21 @@ export const TextBox4=styled.div`
     @media (max-width:400px)
     {
         font-size: 8px;
-        left: 200px;
         max-width: 80px;
-        top: 135px;
+        left: 260px;
+        top: 30px;
+    }
+
+    @media (max-width:376px)
+    {
+        top: 25px;
+        left: 245px;
+    }
+
+    @media (max-width:320px)
+    {
+        top: -5px;
+        left: 210px;
     }
 `
 
@@ -464,8 +503,20 @@ export const Coin=styled.img`
     @media (max-width:400px)
     {
         object-fit: contain;
-        top: 40px;
-        left: 88px;
+        top: -45px;
+        left: 137px;
+    }
+
+    @media (max-width:376px)
+    {
+        left: 120px;
+        top: -60px;
+    }
+
+    @media (max-width:325px)
+    {
+        top: -90px;
+        left: 100px;
     }
 `
 
@@ -496,10 +547,21 @@ export const StackofCoin1=styled.img`
 
     @media (max-width:400px)
     {
-        top: 40px;
-        left: 90px;
+        top: -50px;
+        left: 140px;
     }
 
+    @media (max-width:376px)
+    {
+        top: -65px;
+        left: 120px;
+    }
+
+    @media (max-width:325px)
+    {
+        top: -100px;
+        left: 100px;
+    }
 `
 
 export const StackofCoin2=styled.img`
@@ -529,7 +591,19 @@ export const StackofCoin2=styled.img`
 
     @media (max-width:400px)
     {
-        top: -10px;
-        left: 124px;
+        top: -100px;
+        left: 175px;
+    }
+
+    @media (max-width:376px)
+    {
+        left: 155px;
+        top: -115px;
+    }
+
+    @media (max-width:325px)
+    {
+        top: -150px;
+        left: 135px;
     }
 `

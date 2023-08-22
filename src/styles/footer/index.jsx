@@ -8,6 +8,14 @@ export const FooterContainer=styled.div`
     {
         position: relative;
         top: -150px;
+        max-height: 550px;
+    }
+
+    @media (max-width:500px)
+    {
+        position: relative;
+        top: -150px;
+        max-height: 510px;
     }
 `
 
@@ -31,6 +39,11 @@ export const FooterWrapper=styled.div`
     {
         flex-direction: column;
         gap: 100px;
+    }
+
+    @media (max-width:500px)
+    {
+        
     }
 `
 

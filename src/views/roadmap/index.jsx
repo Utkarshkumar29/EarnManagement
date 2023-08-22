@@ -81,8 +81,8 @@ const RoadMap = () => {
           <Box22>
             <TextWrapper
               paddingLeft="140px"
-              side600="110px"
-              left600="-30px"
+              side600="0px"
+              left600="-50px"
               side380="0px"
               left380="-80px"
               top="60px"

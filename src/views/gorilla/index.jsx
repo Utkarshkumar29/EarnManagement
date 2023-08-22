@@ -18,7 +18,6 @@ import {
   Guild,
   InputContainer,
   TextWrapper,
-  CoinWrapper,
   StackofCoin1,
   StackofCoin2,
   Coin
