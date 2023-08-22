@@ -243,6 +243,11 @@ export const GorillaImageStyle=styled.img`
     {
         max-height: 300px;
     }
+
+    @media (max-width:380px)
+    {
+        padding-left: 40px;
+    }
 `
 
 export const TextWrapper=styled.div`
