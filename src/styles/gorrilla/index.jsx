@@ -428,6 +428,11 @@ export const TextBox3=styled.div`
         left: 80px;
     }
 
+    @media (max-width:380px)
+    {
+        left: 70px;
+    }
+
     @media (max-width:350px)
     {
         top: 120px;
@@ -525,6 +530,8 @@ export const Coin=styled.img`
         top: 15px;
         left: 130px;
     }
+
+
 
     @media (max-width:350px)
     {
