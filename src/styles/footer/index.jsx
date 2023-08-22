@@ -3,6 +3,8 @@ import styled from 'styled-components'
 export const FooterContainer=styled.div`
     width: 100%;
     text-align: center;
+    position: relative;
+    top: -10px;
 
     @media (max-width:600px)
     {
@@ -11,12 +13,7 @@ export const FooterContainer=styled.div`
         max-height: 550px;
     }
 
-    @media (max-width:500px)
-    {
-        position: relative;
-        top: -150px;
-        max-height: 510px;
-    }
+    
 `
 
 export const FooterWrapper=styled.div`

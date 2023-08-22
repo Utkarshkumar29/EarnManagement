@@ -20,9 +20,10 @@ import {
   TextWrapper,
   StackofCoin1,
   StackofCoin2,
-  Coin
+  Coin,
+  GorillaImageStyle
 } from "../../styles/gorrilla";
-import GorillaImage from "../../assets/images/Gorrila.png";
+import GorillaImage from "../../assets/images/gorilla2.png";
 import Etherium from "../../assets/images/Etherium-2.png";
 import Coins from "../../assets/images/Sandglass&Bitcoin.png";
 import Arrow from "../../assets/images/Vector.png";
@@ -104,7 +105,7 @@ const Gorilla = () => {
           </Guild>
         </HeroLeft>
         <HeroRight>
-          <img src={GorillaImage} alt="error"></img>
+          <GorillaImageStyle src={GorillaImage} alt="error" maxWidth="100px"></GorillaImageStyle>
           
           <TextWrapper>
             <TextBox1>

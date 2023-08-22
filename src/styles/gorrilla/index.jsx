@@ -222,14 +222,27 @@ export const HeroRight=styled.div`
                 max-width: 600px;
                 width: 100%;
            }
-
-           @media (max-width:600px)
-           {
-                object-fit: contain;
-                max-width: 400px;
-                width: 100%;
-           }
     }   
+`
+
+export const GorillaImageStyle=styled.img`
+    width: 100%;
+    max-width: 700px;
+    max-height: 500px;
+    padding-left: 30px;
+    object-fit: contain;
+
+    @media (max-width:450px)
+    {
+        padding-top: 40px;
+        max-width: 300px;
+        max-height: 350px;
+    }
+
+    @media (max-width:400px)
+    {
+        max-height: 300px;
+    }
 `
 
 export const TextWrapper=styled.div`
@@ -258,14 +271,14 @@ export const TextBox1=styled.div`
     font-size: 14px;
     transition: all 0.5s ease-in-out 0s;
     top: 120px;
-    left: 50px;
+    left: 20px;
 
     @media (max-width:1300px)
     {
         max-width: 170px;
         width: 100%;
         top: 130px;
-        left: 60px;
+        left: 20px;
         font-size: 12px;
     }
 
@@ -274,30 +287,31 @@ export const TextBox1=styled.div`
         font-size: 10px;
         max-width: 150px;
         width: 100%;
-        left: 20px;
+        top: 90px;
+        left: -20px;
         font-size: 13px;
         padding: 10px;
-        top: 60px;
+    }
+
+    @media (max-width:450px)
+    {
+        max-width: 120px;
+        font-size: 9px;
+        left: 40px;
+        top: 100px;
     }
 
     @media (max-width:400px)
     {
+        max-width: 80px;
         font-size: 8px;
-        top: 65px;
-        left: 50px;
-        max-width: 100px;
+        padding: 5px;
+        left: 60px;
     }
 
-    @media (max-width:376px)
+    @media (max-width:350px)
     {
         left: 35px;
-    }
-
-    @media (max-width:325px)
-    {
-        left: 20px;
-        text-align: left;
-        padding: 10px;
     }
 `
 
@@ -317,7 +331,7 @@ export const TextBox2=styled.div`
     font-size: 14px;
     transition: all 0.5s ease-in-out 0s;
     top: 30px;
-    left: 420px;
+    left: 400px;
 
     @media (max-width:1300px)
     {
@@ -333,28 +347,31 @@ export const TextBox2=styled.div`
         max-width: 150px;
         width: 100%;
         top: 0px;
-        left: 260px;
+        left: 280px;
         font-size: 13px;
         padding: 10px;
     }
 
+    @media (max-width:450px)
+    {
+        max-width: 80px;
+        font-size: 9px;
+        left: 270px;
+        top: 50px;
+    }
+
     @media (max-width:400px)
     {
+        max-width: 80px;
         font-size: 8px;
-        left: 260px;
-        top: 5px;
-        max-width: 100px;
-    }
-
-    @media (max-width:376px)
-    {
+        padding: 5px;
         left: 250px;
+        top: 40px;
     }
 
-    @media (max-width:325px)
+    @media (max-width:350px)
     {
-        top: -5px;
-        left: 210px;
+        left: 205px;
     }
 `
 
@@ -374,13 +391,13 @@ export const TextBox3=styled.div`
     font-size: 14px;
     transition: all 0.5s ease-in-out 0s;
     top: 170px;
-    left: 80px;
+    left: 50px;
 
     @media (max-width:1300px)
     {
         max-width: 170px;
-        top: 140px;
-        left: 90px;
+        top: 170px;
+        left: 45px;
         font-size: 12px;
     }
 
@@ -389,30 +406,32 @@ export const TextBox3=styled.div`
         font-size: 10px;
         max-width: 150px;
         width: 100%;
-        top:40px;
-        left: 20px;
+        top:120px;
+        left: 0px;
         font-size: 13px;
         padding: 10px;
     }
 
+    @media (max-width:450px)
+    {
+        max-width: 120px;
+        font-size: 9px;
+        left: 40px;
+        top: 130px;
+    }
+
     @media (max-width:400px)
     {
-        max-width: 100px;
+        max-width: 80px;
         font-size: 8px;
-        top: 85px;
-        left: 65px;
+        padding: 5px;
+        left: 80px;
     }
 
-    @media (max-width:376px)
+    @media (max-width:350px)
     {
-        left: 50px;
-        top: 70px;
-    }
-
-    @media (max-width:325px)
-    {
-        top: 50px;
-        left: 30px;
+        top: 120px;
+        left: 55px;
     }
 `
 
@@ -432,12 +451,12 @@ export const TextBox4=styled.div`
     font-size: 14px;
     transition: all 0.5s ease-in-out 0s;
     top: 80px;
-    left: 430px;
+    left: 400px;
 
     @media (max-width:1300px)
     {
         max-width: 170px;
-        top: 50px;
+        top: 70px;
         left: 390px;
         font-size: 12px;
     }
@@ -447,40 +466,41 @@ export const TextBox4=styled.div`
         font-size: 10px;
         max-width: 100px;
         width: 100%;
-        top: -30px;
-        left: 260px;
+        top: 20px;
+        left: 270px;
         font-size: 13px;
         padding: 10px;
     }
 
-    @media (max-width:400px)
+    @media (max-width:450px)
     {
-        font-size: 8px;
         max-width: 80px;
-        left: 260px;
-        top: 30px;
+        font-size: 9px;
+        left: 270px;
+        top: 80px;
     }
 
-    @media (max-width:376px)
+    @media (max-width:400px)
     {
-        top: 25px;
+        max-width: 80px;
+        font-size: 8px;
+        padding: 5px;
         left: 245px;
     }
 
-    @media (max-width:320px)
+    @media (max-width:350px)
     {
-        top: -5px;
-        left: 210px;
+        left: 205px;
     }
 `
 
 export const Coin=styled.img`
     position: absolute;
-    max-width: 80px;
+    max-width: 100px;
     width: 100%;
     max-height: 80px;
-    top: 0px;
-    left: 300px;
+    top: 20px;
+    left: 270px;
 
     @media (max-width: 1300px)
     {
@@ -488,35 +508,27 @@ export const Coin=styled.img`
         max-width: 80px;
         width: 100%;
         min-height: 70px;
-        top: -15px;
-        left: 216px;
+        top: 40px;       
+        left: 195px;
     }     
     
     @media (max-width:600px)
     {
         max-width: 60px;
         max-height: 40px;
-        top: -120px;
+        top: 0px;
         left: 140px;
     }
 
     @media (max-width:400px)
     {
-        object-fit: contain;
-        top: -45px;
-        left: 137px;
+        top: 15px;
+        left: 130px;
     }
 
-    @media (max-width:376px)
+    @media (max-width:350px)
     {
-        left: 120px;
-        top: -60px;
-    }
-
-    @media (max-width:325px)
-    {
-        top: -90px;
-        left: 100px;
+        left: 95px;
     }
 `
 
@@ -525,41 +537,34 @@ export const StackofCoin1=styled.img`
     width: 100%;
     max-height: 100px;
     position: absolute;
-    top: 100px;
-    left: 215px;
+    top: 120px;
+    left: 180px;
 
     @media (max-width: 1300px)
     {
         object-fit: contain;
         max-width: 90px;
         max-height: 90px;
-        top: -20px;
-        left: 220px;
+        top: 40px;
+        left: 200px;
     }
     
     @media (max-width:600px)
     {
         max-width: 60px;
         max-height: 60px;
-        top: -125px;
+        top: 0px;
         left: 140px;
     }
 
     @media (max-width:400px)
     {
-        top: -50px;
-        left: 140px;
+        top: 10px;
+        left: 130px;
     }
 
-    @media (max-width:376px)
+    @media (max-width:350px)
     {
-        top: -65px;
-        left: 120px;
-    }
-
-    @media (max-width:325px)
-    {
-        top: -100px;
         left: 100px;
     }
 `
@@ -569,41 +574,34 @@ export const StackofCoin2=styled.img`
     width: 100%;
     max-height: 70px;
     position: absolute;
-    top: 19px;
-    left: 370px;
+    top: 40px;
+    left: 355px;
 
     @media (max-width: 1300px)
     {
         object-fit: contain;
         max-width: 60px;
         max-height: 60px;
-        top: -90px;
-        left: 273px;
+        top: -30px;
+        left: 252px;
     }  
     
     @media (max-width:600px)
     {
         max-width: 40px;
         max-height: 40px;
-        top: -175px;
+        top: -50px;
         left: 176px;
     }
 
     @media (max-width:400px)
     {
-        top: -100px;
-        left: 175px;
+        top: -40px;
+        left: 165px;
     }
 
-    @media (max-width:376px)
+    @media (max-width:350px)
     {
-        left: 155px;
-        top: -115px;
-    }
-
-    @media (max-width:325px)
-    {
-        top: -150px;
-        left: 135px;
+        left: 134px;
     }
 `

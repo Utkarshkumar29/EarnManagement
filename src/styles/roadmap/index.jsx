@@ -9,10 +9,15 @@ export const RoadmapContainer=styled.div`
     @media (max-width:600px)
     {
         position: relative;
+        top: -100px;
+    }
+
+    @media (max-width:450px)
+    {
         top: -150px;
     }
 
-    @media (max-width:600px)
+    @media (max-width:400px)
     {
         top: -200px;
     }
