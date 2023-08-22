@@ -9,33 +9,32 @@ export const HeroContainer=styled.div`
 `
 
 export const HeroWrapper=styled.div`
-    display: flex;
     max-width: 1300px;
     width: 100%;
     gap: 40px;
-    justify-content: center;
+    display: flex;
     align-items: center;
+    justify-content: center;
 
     @media (max-width:1300px)
     {
         flex-direction: column;
         text-align: center;
     }
-
-   
 `
 
 export const HeroLeft=styled.div`
     max-width: 600px;
     width: 100%;
     flex: 1;
-    gap: 0px;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 `
 
 export const Guild=styled.div`
     position: relative;
-    top: 90px;
+    top: 0px;
     display: flex;
     flex-direction: column;
     gap:30px;
@@ -239,8 +238,8 @@ export const TextBox1=styled.div`
     padding: 15px;
     font-size: 14px;
     transition: all 0.5s ease-in-out 0s;
-    top: 160px;
-    left: 60px;
+    top: 120px;
+    left: 50px;
 
     @media (max-width:1300px)
     {
@@ -286,8 +285,8 @@ export const TextBox2=styled.div`
     padding: 15px;
     font-size: 14px;
     transition: all 0.5s ease-in-out 0s;
-    top: 40px;
-    left: 430px;
+    top: 30px;
+    left: 420px;
 
     @media (max-width:1300px)
     {
@@ -332,7 +331,7 @@ export const TextBox3=styled.div`
     padding: 15px;
     font-size: 14px;
     transition: all 0.5s ease-in-out 0s;
-    top: 200px;
+    top: 170px;
     left: 80px;
 
     @media (max-width:1300px)
@@ -378,7 +377,7 @@ export const TextBox4=styled.div`
     padding: 15px;
     font-size: 14px;
     transition: all 0.5s ease-in-out 0s;
-    top: 130px;
+    top: 80px;
     left: 430px;
 
     @media (max-width:1300px)
@@ -414,7 +413,7 @@ export const Coin=styled.img`
     max-width: 80px;
     width: 100%;
     max-height: 80px;
-    top: 40px;
+    top: 0px;
     left: 300px;
 
     @media (max-width: 1300px)
@@ -448,7 +447,7 @@ export const StackofCoin1=styled.img`
     width: 100%;
     max-height: 100px;
     position: absolute;
-    top: 140px;
+    top: 100px;
     left: 215px;
 
     @media (max-width: 1300px)
@@ -481,7 +480,7 @@ export const StackofCoin2=styled.img`
     width: 100%;
     max-height: 70px;
     position: absolute;
-    top: 60px;
+    top: 19px;
     left: 370px;
 
     @media (max-width: 1300px)
