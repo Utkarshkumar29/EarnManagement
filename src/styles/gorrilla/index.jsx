@@ -374,7 +374,7 @@ export const TextBox2=styled.div`
         top: 40px;
     }
 
-    @media (max-width:376px)
+    @media (max-width:390px)
     {
         left: 255px;
     }
