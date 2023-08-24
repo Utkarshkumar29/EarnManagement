@@ -553,6 +553,8 @@ export const CircleContainer=styled.div`
     `
 
 export const BlackCircle=styled.img`
+    background: radial-gradient(55.76% 58.76% at 50% 50%, rgba(0, 56, 255, 0.24) 0%, rgba(0, 133, 255, 0) 100%);
+
     @media (max-width:670px)
     {
         max-width: 300px;
@@ -572,17 +574,17 @@ export const CircleWrapper=styled.div`
 `
 
 export const Circle=styled.div`
-    max-width: 210px;
+    max-width: 220px;
     width: 100%;
-    max-height: 220px;
+    min-height: 220px;
     background-color: blue;
     z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 100px;
+    border-radius: 200px;
     position: relative;
-    top: -347px;
+    top: -350px;
     left: -12px;
 
     @media (max-width:1300px)

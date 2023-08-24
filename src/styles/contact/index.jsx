@@ -142,6 +142,7 @@ export const ContactDescription=styled.p`
     {
         position: relative;
         left: -30px;
+        width: 200px;
     }
 `
 
