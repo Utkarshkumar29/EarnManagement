@@ -207,10 +207,10 @@ export const WhiteBox=styled.div`
 
     @media (max-width:380px)
     {
-        min-width: 20px;
+        min-width: 100px;
         width: 100%;
-        min-height: 70px;
-        left:  35px;
+        min-height: 90px;
+        left:  50px;
         border-radius: 20px;
     }
     
@@ -236,9 +236,9 @@ export const WhiteBox=styled.div`
 
         @media (max-width:380px)
         {
-            max-width: 20px;
+            max-width: 30px;
             width: 100%;
-            min-height: 20px;
+            min-height: 30px;
         }
     }
 `
@@ -289,11 +289,24 @@ export const TextWrapper=styled.div`
         
     }
 
+    @media (max-width:500px)
+    {
+        padding-right: ${props=>props.side500};
+        padding-left: ${props=>props.distance500};
+        left: ${props=>props.left500};
+        
+    }
+
     @media (max-width:380px)
     {
         padding-right: ${props=>props.side380};
         padding-left: ${props=>props.distance380};
         left: ${props=>props.left380};
+    }
+
+    @media (max-width:320px)
+    {
+        max-width: ${props=>props.maxWidth320};
     }
 `
 
@@ -304,6 +317,11 @@ export const Year=styled.p`
     @media (max-width:500px)
     {
         font-size: 60px;
+    }
+
+    @media (max-width:320px) 
+    {
+        font-size: 40px;
     }
 `
 
@@ -317,6 +335,11 @@ export const Quater=styled.p`
         font-size: 25px;
         font-weight: 500;
     }
+
+    @media (max-width:320px) 
+    {
+        font-size: 23px;
+    }
 `
 
 export const Q1Description=styled.p`
@@ -328,6 +351,11 @@ export const Q1Description=styled.p`
     {
         font-size: 14px;
     }
+
+    @media (max-width:320px) 
+    {
+        font-size: 12px;
+    }
 `
 
 export const Box23=styled.div`
@@ -335,6 +363,7 @@ export const Box23=styled.div`
 `
 
 export const Box3Container=styled.div`
+    max-height: 250px;
 `
 
 export const Box3Wrapper=styled.div`
@@ -349,15 +378,14 @@ export const Box3=styled.div`
     &:nth-child(1)
     {
         width: 100%;
-        min-height: 300px;
         flex: 2;
+        max-width: 888px;
     }
 
     &:nth-child(2)
     {
         max-width: 1500px;
         width: 100%;
-        min-height: 300px;
         flex:1;
         border: 2px solid #333;
         border-left:none;
@@ -382,7 +410,6 @@ export const Box3=styled.div`
         @media (max-width:480px)
         {
             left: -60px;
-            max-height: 200px;
         }
 
         @media (max-width:380px)
@@ -392,7 +419,7 @@ export const Box3=styled.div`
 
         @media (max-width:320px)
         {
-            left: -30px;
+            left: -36px;
         }
     }
 
@@ -400,7 +427,7 @@ export const Box3=styled.div`
     {
         max-width: 100px;
         width:100%;
-        min-height: 300px;
+        min-height: 250px;
 
         @media (max-width:600px)
         {
@@ -411,6 +438,7 @@ export const Box3=styled.div`
 `   
 
 export const Box4Container=styled.div`
+    max-height: 250px;
 `
 
 export const Box4Wrapper=styled.div`
@@ -426,7 +454,7 @@ export const Box4=styled.div`
     {
         max-width: 300px;
         width: 100%;
-        min-height: 300px;
+        min-height: 250px;
 
         @media (max-width:600px)
         {
@@ -448,13 +476,12 @@ export const Box4=styled.div`
     {
         max-width: 600px;
         width: 100%;
-        min-height: 300px;
         flex:1;
         border: 2px solid #333;
         border-right: none;
         border-radius: 40px 0 0 40px;
         position: relative;
-        top:-3px;
+        top:100px;
         left: -20px;
         padding-right:200px;
 
@@ -488,7 +515,8 @@ export const Box4=styled.div`
 
         @media (max-width:320px)
         {
-            left: -75px;
+            left: -72px;
+            max-width: 190px;
         }
     }
 `
@@ -512,10 +540,10 @@ export const CircleContainer=styled.div`
         left: -30px;
     }
 
-    @media (max-width:600px)
+    @media (max-width:670px)
     {
         left: 70px;
-        max-width: 200px;
+        max-width: 260px;
     }
 
     @media (max-width:400px)
@@ -524,60 +552,58 @@ export const CircleContainer=styled.div`
     }
     `
 
-export const CircleWrapper=styled.div`
-    background: radial-gradient(41.76% 41.76% at 50% 50%, #012169 0%, rgba(0, 133, 255, 0) 100%);  
-    min-height: 500px;
+export const BlackCircle=styled.img`
+    @media (max-width:670px)
+    {
+        max-width: 300px;
+        width: 100%;
+    }
+`
+
+export const CircleWrapper=styled.div`  
     display: flex;
     align-items: center;
     justify-content: center;
 
-    @media (max-width:600px)
+    @media (max-width:1300px)
     {
-        min-height: 280px;
-        max-width: 450px;
-        width: 100%;
-    }
-
-    &::before
-    {
-        content: "";
-        max-width: 240px;
-        width: 100%;
-        min-height: 240px;
-        background-color: black;
-        z-index: -1;
-        position: absolute;
-        border-radius: 150px;
-
-        @media (max-width:600px)
-        {
-            max-width: 140px;
-            width: 100%;
-            min-height: 140px;
-        }
-        
+        max-height: 0px;
     }
 `
 
 export const Circle=styled.div`
-    max-width: 200px;
+    max-width: 210px;
     width: 100%;
-    min-height: 200px;
+    max-height: 220px;
     background-color: blue;
     z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 100px;
+    position: relative;
+    top: -347px;
+    left: -12px;
 
-    @media (max-width:600px)
-        {
-            max-width: 120px;
-            width: 100%;
-            min-height: 120px;
-        }
+    @media (max-width:1300px)
+    {
+        top: -242px;
+    }
 
-    
+    @media (max-width:670px)
+    {
+        max-width: 130px;
+        min-height: 130px;
+        top: -135px;
+        left: 2px;
+    }
+
+    @media (max-width:350px)
+    {
+        max-width: 120px;
+        min-height: 120px;
+        top: -131px;
+    }
 
     &::after
     {
@@ -590,11 +616,11 @@ export const Circle=styled.div`
         position: absolute;
         border-radius: 100px;
 
-        @media (max-width:600px)
+        @media (max-width:670px)
         {
-            max-width: 100px;
+            max-width: 90px;
             width: 100%;
-            min-height: 100px;
+            min-height: 90px;
         }
     }
 
@@ -602,11 +628,11 @@ export const Circle=styled.div`
     {
         z-index: 100;
 
-        @media (max-width:600px)
+        @media (max-width:670px)
         {
-            max-width: 120px;
+            max-width: 100px;
             width: 100%;
-            min-height: 120px;
+            max-height: 100px;
         }
     }
 `

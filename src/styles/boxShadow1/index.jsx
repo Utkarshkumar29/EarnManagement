@@ -36,9 +36,9 @@ export const Box=styled.div`
 
         @media (max-width:380px)
         {
-            max-width: 20px;
+            max-width: 30px;
             width: 100%;
-            min-height: 20px;
+            min-height: 30px;
         }
     }
 
@@ -65,10 +65,10 @@ export const Box=styled.div`
 
     @media (max-width:380px)
     {
-        min-width: 80px;
+        min-width: 87px;
         width: 100%;
-        min-height: 70px;
-        left:  -40px;
+        min-height: 90px;
+        left:  -45px;
         border-radius: 20px;
     }
 `

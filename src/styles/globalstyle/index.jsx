@@ -10,9 +10,7 @@ const GlobalStyle = createGlobalStyle`
   
   body {
     color: white;
-    background-image: url(${Background1});
-    background-size: cover;                    
-    background-repeat: no-repeat;   
+    background-image: url(${Background1});   
     font-family: 'Outfit', sans-serif;
   }
 `;

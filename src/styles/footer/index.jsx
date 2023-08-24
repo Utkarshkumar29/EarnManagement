@@ -4,16 +4,22 @@ export const FooterContainer=styled.div`
     width: 100%;
     text-align: center;
     position: relative;
-    top: -10px;
-
+    top:739px;
+    
     @media (max-width:600px)
     {
-        position: relative;
-        top: -210px;
-        max-height: 550px;
+        top:640px
     }
 
-    
+    @media (max-width:450px)
+    {
+        top:590px
+    }
+
+    @media (max-width:400px)
+    {
+        top:540px
+    }
 `
 
 export const FooterWrapper=styled.div`

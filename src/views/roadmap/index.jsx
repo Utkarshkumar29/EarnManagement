@@ -29,23 +29,25 @@ import {
   CircleWrapper,
   Circle,
   CircleContainer,
+  BlackCircle,
 
 } from "../../styles/roadmap";
 import ShadowBox from "../../components/boxShadow";
 import ShadowBox1 from "../../components/boxShadow1";
 import CirlceImage from '../../assets/images/HourGlass.png'
+import BackCircle from '../../assets/images/Monero.png'
 
 const Box3content = [{ content: "" }, { content: "" }, { content: "" }];
 
 const outerDiv = [
   { content: "", style: {} },
-  { content: "", style: { position: "relative", top: "297px" } },
-  { content: "", style: { position: "relative", top: "594px" } },
+  { content: "", style: { position: "relative", top: "247px" } },
+  { content: "", style: { position: "relative", top: "493.5px" } },
 ];
 
 const outDiv = [
-  { content: "", style: { position: "relative", top: "-600.5px" } },
-  { content: "", style: { position: "relative", top: "-303.5px" } },
+  { content: "", style: { position: "relative", top: "-103.5px" } },
+  { content: "", style: { position: "relative", top: "143.5px" } },
 ];
 
 const Box4content = [{ content: "" }, { content: "" }];
@@ -65,6 +67,7 @@ const RoadMap = () => {
             </RoadTextContainer>
 
             <CircleContainer>
+            <BlackCircle src={BackCircle} alt="error" />
               <CircleWrapper>
                 <Circle>
                   <img src={CirlceImage} alt="error" />
@@ -109,7 +112,8 @@ const RoadMap = () => {
                         direction="rtl"
                         paddingRight="140px"
                         side600="110px"
-                        side380="50px"
+                        side500="70px"
+                        side380="60px"
                       >
                         <Year>2023</Year>
                         <Quater>Q1</Quater>
@@ -137,7 +141,9 @@ const RoadMap = () => {
                       <TextWrapper
                         paddingLeft="140px"
                         distance600="100px"
-                        distance380="50px"
+                        distance380="80px"
+                        left500="-25px"
+                        maxWidth320="190px"
                       >
                         <Year>2023</Year>
                         <Quater>Q1</Quater>

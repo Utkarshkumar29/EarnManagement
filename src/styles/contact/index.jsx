@@ -5,11 +5,27 @@ export const ContactContainer=styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top: 748.5px;
     
     @media (max-width:600px)
     {
-        position: relative;
-        top: -199.5px;
+        top: 648.5px;
+    }
+
+    @media (max-width:500px)
+    {
+        top: 648.5px;
+    }
+
+    @media (max-width:450px)
+    {
+        top: 598.5px;
+    }
+
+    @media (max-width:400px)
+    {
+        top: 549px;
     }
 `
 
@@ -140,7 +156,7 @@ export const TextWrapper=styled.div`
     min-height: 500px;
     display: flex;
     flex-direction: row;
-    gap: 250px;
+    gap: 200px;
     position: relative;
     top: 100px;
 
@@ -223,7 +239,7 @@ export const Circle=styled.div`
     justify-content: center;
     border-radius: 100px;
     position: relative;
-    left: 600px;
+    left: 550px;
 
     @media (max-width:1250px)
     {
