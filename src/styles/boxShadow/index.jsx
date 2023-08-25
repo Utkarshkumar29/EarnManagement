@@ -62,7 +62,7 @@ export const Box=styled.div`
 
     @media (max-width:380px)
     {
-        max-width: 87px;
+        max-width: 94px;
         width: 100%;
         min-height: 70px;
         left:  45px;
