@@ -559,7 +559,8 @@ export const Coin=styled.img`
 
     @media (max-width:350px)
     {
-        left: 95px;
+        left: 100px;
+        top: 0%;
     }
 `
 
@@ -602,6 +603,7 @@ export const StackofCoin1=styled.img`
     @media (max-width:350px)
     {
         left: 100px;
+        top: -5px;
     }
 `
 
@@ -644,5 +646,6 @@ export const StackofCoin2=styled.img`
     @media (max-width:350px)
     {
         left: 134px;
+        top: -54px;
     }
 `
