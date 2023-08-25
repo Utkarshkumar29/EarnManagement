@@ -9,7 +9,7 @@ const Contact = () => {
       <Box52>
         <ContactHeading>Contact Us</ContactHeading>
         <ContactDescription>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </ContactDescription>
 
         <InputContainer>

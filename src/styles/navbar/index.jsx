@@ -36,6 +36,13 @@ export const Menuwrapper=styled.div`
 `
 export const MenuContent=styled.li`
     list-style: none;
+    font-family: "Graphik";
+
+    &:hover
+    {
+        color: rgba(21, 196, 198, 1);
+
+    }
 `
 export const Linkwrapper=styled.div`
     display: grid;

@@ -314,6 +314,11 @@ export const Year=styled.p`
     font-size: 70px;
     font-weight: 100;
 
+    @media (max-width:900px)
+    {
+        font-size: 65px;
+    }
+
     @media (max-width:500px)
     {
         font-size: 60px;
@@ -329,6 +334,11 @@ export const Quater=styled.p`
     font-size: 33px;
     font-weight: 500;   
     color: rgba(21, 196, 198, 1);
+
+    @media (max-width:900px)
+    {
+        font-size: 29px;
+    }
 
     @media (max-width:550px)
     {
@@ -347,6 +357,11 @@ export const Q1Description=styled.p`
     font-weight: 400;
     color: rgba(255, 255, 255, 0.39);
 
+    @media (max-width:500px)
+    {
+        font-size: 15px;
+    }
+
     @media (max-width:550px)
     {
         font-size: 14px;
@@ -355,6 +370,7 @@ export const Q1Description=styled.p`
     @media (max-width:320px) 
     {
         font-size: 12px;
+        width: 100px;
     }
 `
 
@@ -574,17 +590,17 @@ export const CircleWrapper=styled.div`
 `
 
 export const Circle=styled.div`
-    max-width: 220px;
+    max-width: 230.74px;
     width: 100%;
-    min-height: 220px;
-    background-color: blue;
+    min-height: 230.74px;
+    background: linear-gradient(172.31deg, #0067AA 5.95%, #003482 53.61%, #020F66 97.92%);
     z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 200px;
     position: relative;
-    top: -350px;
+    top: -355px;
     left: -12px;
 
     @media (max-width:1300px)
@@ -599,20 +615,19 @@ export const Circle=styled.div`
         top: -135px;
         left: 2px;
     }
-
-    @media (max-width:350px)
+    @media (max-width:325px)
     {
-        max-width: 120px;
-        min-height: 120px;
-        top: -131px;
+        top: -130px;
+        max-width: 122px;
+        min-height: 122px;
     }
 
     &::after
     {
         content: "";
-        max-width: 170px;
+        max-width: 200px;
         width: 100%;
-        min-height: 170px;
+        min-height: 200px;
         background-color: black;
         z-index: 4;
         position: absolute;
@@ -620,21 +635,30 @@ export const Circle=styled.div`
 
         @media (max-width:670px)
         {
-            max-width: 90px;
+            max-width: 110px;
             width: 100%;
-            min-height: 90px;
+            min-height: 110px;
         }
+
+        @media (max-width:325px)
+        {
+            max-width: 100px;
+            min-height: 100px;
+        }   
     }
 
     img
     {
         z-index: 100;
+        max-width: 220px;
+        width: 100%;
+        max-height: 220px;
 
         @media (max-width:670px)
         {
-            max-width: 100px;
+            max-width: 110px;
             width: 100%;
-            max-height: 100px;
+            max-height: 110px;
         }
     }
 `

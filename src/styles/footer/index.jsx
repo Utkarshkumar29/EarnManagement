@@ -44,9 +44,9 @@ export const FooterWrapper=styled.div`
         gap: 100px;
     }
 
-    @media (max-width:500px)
+    @media (max-width:800px)
     {
-        
+        gap: 60px;
     }
 `
 
@@ -78,6 +78,11 @@ export const TipsWrapper=styled.div`
     display: flex;
     flex-direction: column;
     gap: 70px;
+
+    @media (max-width:800px)
+    {
+        gap: 50px;
+    }
 `
 
 export const FingertipHeading=styled.p`
@@ -87,6 +92,11 @@ export const Fingertipcontent=styled.p`
     display: flex;
     flex-direction: column;
     gap: 30px;
+
+    @media (max-width:800px)
+    {
+        gap: 18px;
+    }
 `
 
 export const Content=styled.p`

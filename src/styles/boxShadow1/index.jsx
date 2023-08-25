@@ -67,7 +67,7 @@ export const Box=styled.div`
     {
         min-width: 87px;
         width: 100%;
-        min-height: 90px;
+        min-height: 70px;
         left:  -45px;
         border-radius: 20px;
     }

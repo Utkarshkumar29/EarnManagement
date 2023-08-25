@@ -110,13 +110,13 @@ export const ContactHeading=styled.p`
 
     @media (max-width:950px)
     {
-        font-size: 60px;
+        font-size: 65px;
         line-height: 60px;
     }
 
     @media (max-width:650px)
     {
-        font-size: 50px;
+        font-size: 55px;
     }
 
     @media (max-width:500px)
@@ -129,13 +129,12 @@ export const ContactHeading=styled.p`
 export const ContactDescription=styled.p`
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0.2px;
+    padding-top: 4px;
+    width: 100%;
 
-    @media (max-width:950px)
+    @media (max-width:550px)
     {
-        font-size: 12px;
-        line-height: 15px;
+        font-size: 14px;
     }
 
     @media (max-width:500px)
@@ -143,6 +142,7 @@ export const ContactDescription=styled.p`
         position: relative;
         left: -30px;
         width: 200px;
+        
     }
 `
 
@@ -176,7 +176,7 @@ export const TextWrapper=styled.div`
 export const Info=styled.div`
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 70px;
     
     @media (max-width:1250px)
     {
@@ -187,7 +187,7 @@ export const Info=styled.div`
 export const Submit=styled.div`
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 70px;
 
     @media (max-width:1250px)
     {
