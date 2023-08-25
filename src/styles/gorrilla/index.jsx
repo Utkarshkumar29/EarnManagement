@@ -542,13 +542,13 @@ export const Coin=styled.img`
     {
         max-width: 60px;
         max-height: 40px;
-        top: 0px;
+        top: -15px;
         left: 140px;
     }
 
     @media (max-width:400px)
     {
-        top: 15px;
+        top: 0px;
         left: 130px;
     }
 
@@ -585,13 +585,13 @@ export const StackofCoin1=styled.img`
     {
         max-width: 60px;
         max-height: 60px;
-        top: 0px;
+        top: -20px;
         left: 140px;
     }
 
     @media (max-width:400px)
     {
-        top: 10px;
+        top: -5px;
         left: 130px;
     }
 
@@ -628,13 +628,13 @@ export const StackofCoin2=styled.img`
     {
         max-width: 40px;
         max-height: 40px;
-        top: -50px;
+        top: -70px;
         left: 176px;
     }
 
     @media (max-width:400px)
     {
-        top: -40px;
+        top: -53px;
         left: 165px;
     }
 
